@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/cocogoose");
+
+* {
+  font-family: "Lato", sans-serif;
+  color: #272a31;
+  padding: 0;
+  margin: 0;
+}
+
+.toolbar {
+  display: none;
+}
+
+.mobile-navbar {
+  background-color: #d3d3d379;
+}
+
+#hambuger {
+  font-size: 28px;
+  padding: 10px;
+}
+
+.menu {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: -100vw;
+  background-color: #fff;
+  transition: left 300ms ease-in;
+}
+
+.mobile-navbar nav i {
+  font-size: 28px;
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
+
+.mobile-navbar nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  margin-top: 3em;
+  margin-left: 2em;
+}
+
+.mobile-navbar nav ul li {
+  list-style: none;
+}
+
+.mobile-navbar nav ul li a {
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.header {
+  display: none;
+}
+
+.mobile-menu {
+  left: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  #hambuger {
+    display: none;
+  }
+
+  .header {
+    display: flex;
+    background-color: #272a31;
+  }
+
+  .header ul {
+    display: flex;
+    gap: 1.5em;
+    width: 100vw;
+    height: 40px;
+    align-items: center;
+    justify-content: end;
+    padding-right: 18%;
+  }
+
+  .header li {
+    list-style: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  .header i {
+    color: #fff;
+  }
+
+  .toolbar {
+    display: flex;
+    background-color: #fff;
+    justify-content: end;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    height: 80px;
+    overflow: hidden;
+  }
+
+  .toolbar ul {
+    display: flex;
+    align-items: center;
+    padding-right: 25%;
+  }
+
+  .toolbar li {
+    list-style: none;
+    padding: 0 3%;
+  }
+
+  .toolbar a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 550;
+  }
+
+  .toolbar img {
+    height: 50%;
+    position: absolute;
+    top: 16%;
+    left: 5%;
+  }
+
+  #campaign {
+    margin-left: 35px;
+    white-space: nowrap;
+    border: 3px solid #ec5242;
+    padding: 0.5em 0.5em;
+  }
+}
