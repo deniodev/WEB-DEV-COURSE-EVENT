@@ -196,6 +196,39 @@
   font-size: 1em;
 }
 
+.partners {
+  background-color: #414246;
+}
+
+.partners-title {
+  color: #8f8f91;
+  text-align: center;
+  padding-top: 5%;
+  margin-top: 0%;
+}
+
+.partners-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.partner {
+  margin-bottom: 5%;
+}
+
+.logo-partner {
+  width: 4em;
+  height: 1.8em;
+}
+
+.partners-title-bar {
+  width: 3em;
+  height: 1em;
+  border-bottom: 1px solid #ef513c;
+  margin: 1px auto 8px;
+}
+
 @media only screen and (min-width: 768px) {
   #hambuger {
     display: none;
@@ -324,4 +357,11 @@
     margin: 10px 100px 10px 100px;
   
   }
+
+  .logo-partner {
+    width: 7em;
+    height: 3em;
+  }
+
+
 }
