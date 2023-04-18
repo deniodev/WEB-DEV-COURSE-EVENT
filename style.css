@@ -229,6 +229,26 @@
   margin: 1px auto 8px;
 }
 
+footer {
+  display: flex;
+  gap: 3em;
+  padding: 2em;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 100vw;
+}
+
+.footer-text {
+  font-size: 14px;
+}
+
+.f-text {
+  display: none;
+}
+
 @media only screen and (min-width: 768px) {
   #hambuger {
     display: none;
