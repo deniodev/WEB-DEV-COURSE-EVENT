@@ -132,6 +132,70 @@
   margin-left: 5%;
 }
 
+.main-program {
+  background-image: url(./images/background.png);
+  background-repeat: repeat;
+  background-color: #272a32;
+  padding-bottom: 10%;
+}
+
+.main-program-title-text {
+  color: #fff;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.main-program-title-bar {
+  width: 3em;
+  height: 1em;
+  border-bottom: 1px solid #ef513c;
+  margin: 1px auto 3em;
+}
+
+.programs-img {
+  margin-left: 3%;
+}
+
+.programs {
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2%;
+}
+
+.programs-title {
+  color: #ef513c;
+  font-size: 0.875em;
+  text-align: center;
+  width: 26%;
+  padding-left: 7px;
+  line-height: 52px;
+  margin-left: -5%;
+}
+
+.programs-text {
+  color: #fff;
+  font-size: 0.75em;
+  padding: 0 0.5em 0 0;
+  word-break: keep-all;
+  overflow: auto;
+  height: auto;
+  width: calc(74% - 6.5em);
+  margin-top: 5%;
+}
+
+.whole-program {
+  text-align: center;
+  padding-top: 5%;
+}
+
+.whole-program a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1em;
+}
+
 @media only screen and (min-width: 768px) {
   #hambuger {
     display: none;
@@ -229,5 +293,35 @@
 
   .location {
     font-size: 1.6em;
+  }
+
+  .programs {
+    margin: auto auto 5% 3px;
+    padding-top: 2%;
+    float: left;
+    width: calc(20% - 3px);
+    height: 250px;
+    background: rgba(255, 255, 255, 0.1);
+    display: block;
+    text-align: center;
+  }
+
+  .programs-title {
+    text-align: center;
+    width: auto;
+    font-size: 1.5em;
+  }
+
+  .programs-text {
+    padding: auto;
+    width: 100%;
+    margin-top: auto;
+    font-size: 0.75em;
+  }
+
+  .cards {
+    justify-content: space-between;
+    margin: 10px 100px 10px 100px;
+  
   }
 }
