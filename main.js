@@ -69,7 +69,7 @@ const modalCards = [
 const renderCards = (modalCards, containerName) => {
   modalCards.forEach((item) => {
     const card = document.createElement('div');
-    card.classList = `card-review`;
+    card.classList = 'card-review';
     card.innerHTML = `<div class="card-img">
     <img src=${item.image}>
   </div>
@@ -87,5 +87,4 @@ const renderCards = (modalCards, containerName) => {
   });
 };
 
-renderCards(modalCards, reviews)
-
+renderCards(modalCards, reviews);

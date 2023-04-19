@@ -50,12 +50,6 @@
   list-style: none;
 }
 
-.mobile-navbar nav ul li a {
-  text-decoration: none;
-  font-size: 28px;
-  font-weight: 600;
-}
-
 .nav-link {
   color: #fff;
 }
@@ -119,6 +113,7 @@
 .location-container {
   margin-bottom: 10%;
 }
+
 .date {
   font-size: 1.5em;
   font-weight: 900;
@@ -204,6 +199,12 @@
   font-size: 1em;
 }
 
+.mobile-navbar nav ul li a {
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: 600;
+}
+
 .partners {
   background-color: #414246;
 }
@@ -236,7 +237,6 @@
   border-bottom: 1px solid #ef513c;
   margin: 1px auto 8px;
 }
-
 
 footer {
   display: flex;
@@ -272,7 +272,7 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url(./images/background-about.png);  
+  background-image: url(./images/background-about.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 1em 0;
@@ -326,7 +326,7 @@ footer {
   width: 70%;
   padding: 2em 0;
   gap: 2em;
- }
+}
 
 .aboutme-logo h2 {
   font-size: 28px;
@@ -484,7 +484,7 @@ footer {
   gap: 5px;
   margin-left: 50px;
   margin-top: 15px;
-} 
+}
 
 .review-title {
   font-size: 22px;
@@ -500,7 +500,6 @@ footer {
   font-size: 15px;
   margin-top: 5px;
 }
-
 
 @media only screen and (min-width: 768px) {
   #hambuger {
@@ -581,7 +580,7 @@ footer {
     padding-top: 6%;
   }
 
-  .hello-title{
+  .hello-title {
     margin-bottom: 10%;
     width: 80%;
     font-size: 3em;
@@ -613,7 +612,7 @@ footer {
   }
 
   .main-program a {
-    display:block;
+    display: block;
   }
 
   .programs-title {
@@ -631,8 +630,7 @@ footer {
 
   .cards {
     justify-content: space-between;
-    margin: 10px 100px 10px 100px;
-  
+    margin: 10px 100px 10px 100px;  
   }
 
   .logo-partner {
@@ -674,6 +672,11 @@ footer {
 
   .aboutme-footer-mobile {
     display: none;
+  }
+
+  .review-content p {
+    font-size: 15px;
+    margin-top: 5px;
   }
 
   .aboutme-footer-desktop {
@@ -772,8 +775,4 @@ footer {
     margin-bottom: 5px;
   }
 
-  .review-content p {
-    font-size: 15px;
-    margin-top: 5px;
-  }
 }
