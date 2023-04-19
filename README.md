@@ -54,9 +54,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Web Development Course] <a name="about-project"></a>
+# 📖 Web Development Course Event 2023 <a name="about-project"></a>
 
-**[Web Development Course]** This my Portfolio setup and mobile first 
+**[Web Development Course]** This my first capstone project using HTML, CSS & JavaScript
 
 ## 🛠 Built With <a name="built-with">HTML, CSS</a>
 - Html, Css & Javascript
@@ -65,7 +65,8 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-- **[Flexbox]**
+- **Resopnsive design**
+- **Using dynamic HTML**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -75,9 +76,9 @@ After you're finished please remove all the comments and instructions!
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link])
+- Live Demo Link
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">https://deniodev.github.io/HTML-CSS-JavaScript-Capstone-Project/</p>
 
 <!-- GETTING STARTED -->
 
@@ -100,7 +101,7 @@ Example command:
 ### Setup
 
 Clone this repository to your desired folder:
-- git clone git@github.com:deniodev/Personal-Portfolio.git
+- git clone 
 
 <!--
 Example commands:
@@ -144,7 +145,7 @@ Example command:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Desktop Version]**
+- [ ] **Add animations**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -177,13 +178,15 @@ I would like to thank my microverse colleagues.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
+<hr>
+VIDEO PRESENTATION LINK: <br> https://deniodev.github.io/HTML-CSS-JavaScript-Capstone-Project/
 
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/deniodev/Personal-Portfolio/blob/headline-section/LICENSE.md) licensed.
+This project is [MIT](https://github.com/deniodev/HTML-CSS-JavaScript-Capstone-Project/blob/features-branch/LICENSE.md) licensed.
 
 
 
