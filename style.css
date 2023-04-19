@@ -139,6 +139,10 @@
   padding-bottom: 10%;
 }
 
+.main-program a {
+  display: none;
+}
+
 .main-program-title-text {
   color: #fff;
   text-align: center;
@@ -161,7 +165,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 2%;
+  margin: 2% 2% 2% 2%;
 }
 
 .programs-title {
@@ -229,6 +233,7 @@
   margin: 1px auto 8px;
 }
 
+
 footer {
   display: flex;
   gap: 3em;
@@ -238,7 +243,8 @@ footer {
 }
 
 .logo {
-  width: 100vw;
+  width: 50vw;
+  font-size: 30px;
 }
 
 .footer-text {
@@ -247,6 +253,175 @@ footer {
 
 .f-text {
   display: none;
+}
+
+.aboutme-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutme-introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./images/background-about.png);  
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1em 0;
+}
+
+.aboutme-introduction h1 {
+  color: #ec5242;
+  font-family: 'COCOGOOSE', sans-serif;
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.aboutme-sharing {
+  color: #ec5242;
+  font-size: 28px;
+  margin-bottom: 0.5em;
+}
+
+#aboutme-sharing {
+  display: block;
+}
+
+.aboutme-text {
+  background-color: #fff;
+  border: 1px solid #272a314b;
+  width: 90%;
+  font-size: 16px;
+  text-align: center; 
+  line-height: 32px;
+  padding: 2em 1em;
+  margin-top: 1em;
+}
+
+.aboutme-contact {
+  text-align: center;
+  font-size: 17px;
+  line-height: 28px;
+}
+
+.aboutme-email {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.aboutme-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 70%;
+  padding: 2em 0;
+  gap: 2em;
+ }
+
+.aboutme-logo h2 {
+  font-size: 28px;
+  color: #272a31;
+  line-height: 36px;
+}
+
+.aboutme-logo p {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.aboutme-logo img {
+  height: 35px;
+  border: 1px solid #d3d3d3;
+  padding: 15px 15px 15px 15px;
+}
+
+.aboutme-events {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 2em;
+  padding: 2em 0;
+}
+
+.aboutme-events hr {
+  width: 100vw;
+  border: 0.1em solid #d3d3d3;
+}
+
+.aboutme-events h3 {
+  font-size: 26px;
+}
+
+.aboutme-events p {
+  font-size: 16px;
+}
+
+.aboutme-past-events {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+
+.event1 {
+  width: 90vw;
+  height: 240px;
+  background-image:
+    linear-gradient(
+      rgba(255, 0, 0, 0.45),
+      rgba(255, 0, 0, 0.45)
+    ),
+    url(./images/edition1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  background-color: #ec5242;
+}
+
+.event2 {
+  width: 90vw;
+  height: 240px;
+  background-image:
+    linear-gradient(
+      rgba(255, 0, 0, 0.45),
+      rgba(255, 0, 0, 0.45)
+    ),
+    url(./images/edition2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.event-date {
+  color: #fff;
+  font-size: 28px;
+}
+
+.event-text {
+  color: #fff;
+  font-size: 20px;
+}
+
+.aboutme-footer-desktop {
+  display: none;
+}
+
+.aboutme-footer-mobile {
+  padding: 10px 10px 10px 10px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -359,6 +534,10 @@ footer {
     text-align: center;
   }
 
+  .main-program a {
+    display:block;
+  }
+
   .programs-title {
     text-align: center;
     width: auto;
@@ -383,5 +562,80 @@ footer {
     height: 3em;
   }
 
+  .aboutme-introduction {
+    height: 90vh;
+    padding: 0.5em 0;
+    justify-content: flex-start;
+  }
 
+  .aboutme-introduction h1 {
+    width: 60%;
+    padding: 5% 0 0;
+  }
+
+  #aboutme-sharing {
+    display: none;
+  }
+
+  .aboutme-text {
+    width: 80%;
+    margin: 2em 0;
+    text-align: center;
+  }
+ 
+  .aboutme-email {
+    margin-bottom: 1em;
+  }
+
+  .aboutme-past-events {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+  }
+
+  .aboutme-footer-mobile {
+    display: none;
+  }
+
+  .aboutme-footer-desktop {
+    background-color: #272a31;
+    display: flex;
+    gap: 3em;
+    padding: 2em;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .aboutme-footer-desktop .logo h5 {
+    width: 30vw;
+    font-size: 30px;
+    color: #fff;
+  }
+
+  .aboutme-footer-desktop .details p {
+    font-size: 14px;
+    color: #fff;
+    line-height: 18px;
+  }
+
+  .aboutme-footer-desktop .p-desk {
+    display: block;
+    color: #fff;
+  }
+
+  .event1 {
+    width: 30vw;
+    height: 40vh;
+  }
+
+  .event2 {
+    width: 30vw;
+    height: 40vh;
+  }
+
+  #partners {
+    display: none;
+  }
 }

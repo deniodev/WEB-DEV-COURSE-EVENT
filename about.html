@@ -5,8 +5,127 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/7415ea4535.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>About</h1>
+    <main>
+        <div class="mobile-navbar">
+            <i class="fa-sharp fa-solid fa-bars" id="hambuger"></i>
+            <nav class="menu" id="menu">
+                <i class="fa-solid fa-x" id="close-btn"></i>
+                <ul>
+                    <li> <a href="./index.html" class="nav-link">Home</a> </li>
+                    <li> <a href="" class="nav-link">Program</a> </li>
+                    <li> <a href="" class="nav-link">Join</a> </li>
+                    <li> <a href="" class="nav-link">Sponsor</a> </li>
+                    <li> <a href="" class="nav-link">News</a> </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header">
+            <ul>
+                <li><i class="fa-brands fa-facebook-f"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li>Logout</li>
+                <li>My Page</li>
+                <li>Portuguese</li>
+            </ul>
+        </div>
+
+        <div class="toolbar">
+            <a href="./index.html" id="mylogo" class="logo"><img src="./images/logo.png" alt="logo"></a>
+            <ul class="navbar-lists">
+                <li class="navbar-list"><a href="./index.html">Home</a></li>
+                <li class="navbar-list"><a href="#">Program</a></li>
+                <li class="navbar-list"><a href="#">Join</a></li>
+                <li class="navbar-list"><a href="#">Sponsor</a></li>
+                <li class="navbar-list"><a href="#">News</a></li>
+                <li class="navbar-list" id="campaign"><a href="#">Campaign</a></li>
+            </ul>
+        </div>
+
+        <div class="aboutme-container">
+            <div class="aboutme-introduction">
+                <p class="aboutme-sharing" id="aboutme-sharing">"Hello! Future developers."</p>
+                <h1>Full Stack Web Development Course Event 2023</h1>
+                <div class="partners-title-bar"></div>
+                <p class="aboutme-text">Welcome to our global event for online web development courses! Our website is dedicated to
+                providing you with access to high-quality web development courses that can be completed from anywhere in the
+                world. Whether you are a beginner or an experienced developer, our courses are designed to help you
+                learn and improve your skills. With expert instructors, interactive online classes, and a supportive community of learners, our
+                website is the perfect platform to take your web development skills to the next level.
+                </p> 
+                <p class="aboutme-contact">Join us today and start building your future in web development!</p>
+                <a href="#" class="aboutme-email">dnhanale@gmail.com</a>
+            </div>
+
+            <div class="aboutme-logo">
+                <h2>Full Stack Web Development Course Event Logo</h2>
+                <div class="partners-title-bar"></div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate, saepe?.</p>
+                <img src="./images/logo.png" alt="logo">
+            </div>
+
+            <div class="aboutme-events">
+                <hr>
+                <h3>See past Full Stack Web Development Course Events</h3>
+                <p>Take a look at the past two Course Events</p>
+                <div class="partners-title-bar"></div>
+                <div class="aboutme-past-events">
+                    <div class="event1">
+                        <h4 class="event-date">2020</h4>
+                        <p class="event-text">Full Stack Web Development Event</p>
+                    </div>
+                    <div class="event2">
+                        <h4 class="event-date">2022</h4>
+                        <p class="event-text">Full Stack Web Development Event</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="partners" id="partners">
+            <div class="partners-text">
+                <h2 class="partners-title">Partner</h2>
+                <div class="partners-title-bar"></div>
+            </div>
+            <div class="partners-container">
+                <div class="partner"><img src="./images/Capture.PNG" alt="logo" class="logo-partner"></div>
+                <div class="partner"><img src="./images/Capture2.PNG" alt="logo" class="logo-partner"></div>
+                <div class="partner"><img src="./images/Capture3.PNG" alt="logo" class="logo-partner"></div>
+                <div class="partner"><img src="./images/Capture4.PNG" alt="logo" class="logo-partner"></div>
+                <div class="partner"><img src="./images/Capture5.PNG" alt="logo" class="logo-partner"></div>
+            </div>
+        </div>
+
+        <footer class="aboutme-footer-mobile">
+            <div class="logo">
+                <img src="./images/logo.png" alt="logo">
+            </div>
+            <div class="details">
+                <p>@deniodev. <br> Some Rights Reserved</p>
+            </div>
+        </footer>
+    
+        <footer class="aboutme-footer-desktop">
+            <div class="logo">
+                <img src="./images/logo.png" alt="logo">
+            </div>
+            <div class="details">
+                <p>2023 Full Stack Web Development Course Event. Some Rights Reserved</p>
+                <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolores architecto illum consequuntur, temporibus nam.</p>
+            </div>
+        </footer>   
+       
+    </main>
+    <script src="./main.js"></script>
 </body>
 </html>
