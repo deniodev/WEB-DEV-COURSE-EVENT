@@ -744,7 +744,7 @@ footer {
     width: 12%;
     padding-left: 0.5em;
     padding-top: 0.5em;
-    background-image: url(../images/speaker-back.png);
+    background-image: url(./images/speaker-back.png);
     background-position: 10% 1%;
     background-repeat: no-repeat;
     background-size: 100%;
