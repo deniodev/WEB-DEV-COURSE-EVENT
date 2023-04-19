@@ -179,7 +179,7 @@ I would like to thank my microverse colleagues.
 
 <!-- FAQ (optional) -->
 <hr>
-VIDEO PRESENTATION LINK: <br> https://deniodev.github.io/HTML-CSS-JavaScript-Capstone-Project/
+VIDEO PRESENTATION LINK: <br> https://www.loom.com/share/bd0395f0ae05412698c9048c89a8883e
 
 
 <!-- LICENSE -->
