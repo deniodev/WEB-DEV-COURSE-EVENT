@@ -112,6 +112,10 @@
   font-size: 0.82em;
 }
 
+.hello-text p {
+  margin-top: 10px;
+}
+
 .location-container {
   margin-bottom: 10%;
 }
@@ -424,6 +428,80 @@ footer {
   padding: 10px 10px 10px 10px;
 }
 
+.reviews {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  align-items: center;
+  padding: 2em 0;
+  width: 100vw;
+}
+
+.students-reviews {
+  font-size: 30px;
+}
+
+.students-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 70%;
+}
+
+.card-review {
+  width: 95vw;
+  height: 100%;
+  padding: 0.7em 0.3em;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+}
+
+.card-img {
+  width: 40%;
+  padding-left: 0.5em;
+  padding-top: 0.5em;
+  background-image: url(../images/speaker-back.png);
+  background-position: 10% 1%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-left: 5px;
+}
+
+.card-img img {
+  width: 180px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.review-content {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-left: 50px;
+  margin-top: 15px;
+} 
+
+.review-title {
+  font-size: 22px;
+}
+
+.link em {
+  color: #ec5242;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.review-content p {
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+
 @media only screen and (min-width: 768px) {
   #hambuger {
     display: none;
@@ -637,5 +715,65 @@ footer {
 
   #partners {
     display: none;
+  }
+
+  .students-cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 70%;
+  }
+
+  .card-review {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 0.6em 1em;
+  }
+
+  .card-img {
+    width: 12%;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+    background-image: url(../images/speaker-back.png);
+    background-position: 10% 1%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .card-img img {
+    width: 180px;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .review-content {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 3%;
+    margin-left: 35%;
+  }
+
+  .review-title {
+    font-size: 22px;
+  }
+
+  .link em {
+    color: #ec5242;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+  .review-content p {
+    font-size: 15px;
+    margin-top: 5px;
   }
 }
