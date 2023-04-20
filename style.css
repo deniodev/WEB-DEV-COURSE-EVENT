@@ -605,6 +605,11 @@ footer {
     left: 10%;
   }
 
+  .main-program {
+    padding: 4em 0;
+    gap: 1em;
+  }
+
   #campaign {
     margin-left: 35px;
     white-space: nowrap;
@@ -639,11 +644,6 @@ footer {
 
   .location {
     font-size: 1.6em;
-  }
-
-  .main-program {
-    padding: 4em 0;
-    gap: 1em;
   }
 
   .layout {
