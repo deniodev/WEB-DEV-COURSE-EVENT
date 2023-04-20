@@ -110,7 +110,6 @@ Open index.html using live server extension.
     - GitHub: [@githubhandle](https://github.com/deniodev)
     - LinkedIn: [LinkedIn](https://www.linkedin.com/in/denionhanale/)
 
-- 👤 [Cindy Shin](https://www.behance.net/adagio07)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
