@@ -1,85 +1,61 @@
-<a name="readme-top"></a>
-
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  
-  <br/>
-
-  <h3><b>Web Development Course</b></h3>
-
-</div>
-
-<!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
- - [🛠 Built With](#built-with)
-  - [Key Features](#key-features)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
+- [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
+
 - [🔭 Future Features](#future-features)
+
 - [🤝 Contributing](#contributing)
+
 - [⭐️ Show your support](#support)
+ 
 - [🙏 Acknowledgements](#acknowledgements)
+
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
 
-# 📖 [Web Development Course] <a name="about-project"></a>
+# 📖  Capstone Project: HTML/CSS & JavaScript project <a name="about-project"></a>
 
-**[Web Development Course]** This my Portfolio setup and mobile first 
+**First Capstone: HTML/CSS & JavaScript** is website for Web Development curse event project build with HTML, CSS, Javascript , using design guidelines , a mobile first approach, with best practices, Github flow and a descriptive and easy to understand README file.
 
-## 🛠 Built With <a name="built-with">HTML, CSS</a>
-- Html, Css & Javascript
+## 🛠 Built With <a name="built-with"></a>
 
-<!-- Features -->
+- HTML
+- CSS
+- Javascript
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+    <summary>Client</summary>
+        <ul>
+            <li><a  href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
+        </ul>
+        <ul>
+            <li><a  href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+        </ul>
+</details>
 
 ### Key Features <a name="key-features"></a>
 
-- **[Flexbox]**
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
+-  Desktop Version
+-  Mobile Version
+-  Home Page
+-  About Page
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-
-- [Live Demo Link])
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
+- [Live Demo Link](https://deniodev.github.io/HTML-CSS-JavaScript-Capstone-Project/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -87,68 +63,62 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need: VS Code and Git.
+In order to run this project you need:
 
-<!--
-Example command:
+- Web browser.
+- Code editor.
 
-```sh
- gem install rails
-```
- -->
 
 ### Setup
 
 Clone this repository to your desired folder:
-- git clone git@github.com:deniodev/Personal-Portfolio.git
 
-<!--
-Example commands:
+Run this command: 
 
 ```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+
+ git clone git@github.com:deniodev/HTML-CSS-JavaScript-Capstone-Project.git
 ```
---->
+### Install
 
+Install this project with:
 
-
-<!--
-Example command:
+Run this command:
 
 ```sh
-  rails server
+ cd my-folder
+ npm install
 ```
---->
+### Usage
 
+To run the project, execute the following command:
 
+Open index.html using live server extension.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Run Tests
 
-<!-- AUTHORS -->
+-N/A
 
-## 👥 Authors <a name="authors"></a>
+### Deployment
 
+- [Live Demo Link](https://deniodev.github.io/HTML-CSS-JavaScript-Capstone-Project/)
 
-👤 **Denio Nhanale**
+## 👥 Authors <a name="getting-started"></a>
 
-- GitHub: [@githubhandle](https://github.com/deniodev)
-- Twitter: [@twitterhandle](https://twitter.com/DNhanale)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/denionhanale)
+- 👤 Denio Nhanale
 
+    - GitHub: [@githubhandle](https://github.com/deniodev)
+    - LinkedIn: [LinkedIn](https://www.linkedin.com/in/denionhanale/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
+- 👤 [Cindy Shin](https://www.behance.net/adagio07)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
+- [ ] add animations
 
-- [ ] **[Desktop Version]**
+##  Video Presentation <a name="live-demo"></a>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
+- [Video Presentation Link](https://www.loom.com/share/bd0395f0ae05412698c9048c89a8883e)
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -156,35 +126,18 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
-
 ## ⭐️ Show your support <a name="support"></a>
 
+If you like this project just give it a star ⭐️ .
 
-If you like this project please star the Repo
+Everybody is welcome to suggest changes in Hello portfolio files.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
+In order to do it, fork this repository, create a new branch and open a Pull Request from your branch
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-
-I would like to thank my microverse colleagues.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-
-<!-- LICENSE -->
+I would like to thank [Cindy Shin](https://www.behance.net/adagio07) for the Original design
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/deniodev/Personal-Portfolio/blob/headline-section/LICENSE.md) licensed.
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+This project is [MIT](./LICENSE.md) licensed.
