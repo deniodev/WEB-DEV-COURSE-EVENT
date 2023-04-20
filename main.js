@@ -70,7 +70,7 @@ const renderCards = (modalCards, containerName) => {
   modalCards.forEach((item) => {
     const card = document.createElement('div');
     card.classList = 'card-review';
-    card.innerHTML = `<div class="card-img">
+    card.innerHTML = `<div class="card-img" alt="Student Picture">
     <img src=${item.image}>
   </div>
   <div class="review-content">

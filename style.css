@@ -150,11 +150,11 @@
 #main-program::after {
   content: "";
   display: block;
-  height: 2px;
-  width: 2.5em;
+  height: 1px;
+  width: 1.8em;
   background-color: #ec5242;
   text-align: center;
-  margin: 1em 2em 0;
+  margin: 0.5em 2.2em 0;
 }
 
 .layout {
@@ -205,8 +205,18 @@
 .partners-title {
   color: #8f8f91;
   text-align: center;
-  padding-top: 5%;
+  padding-top: 3%;
   margin-top: 0%;
+}
+
+#partners-title::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 2em;
+  background-color: #ec5242;
+  text-align: center;
+  margin: 0.5em 44.5% 1em;
 }
 
 .partners-container {
@@ -222,13 +232,6 @@
 .logo-partner {
   width: 4em;
   height: 1.8em;
-}
-
-.partners-title-bar {
-  width: 3em;
-  height: 1em;
-  border-bottom: 1px solid #ef513c;
-  margin: 1px auto 8px;
 }
 
 footer {
@@ -271,7 +274,7 @@ footer {
   padding: 1em 0;
 }
 
-.aboutme-introduction h1 {
+.aboutme-introduction h1{
   color: #ec5242;
   font-family: 'COCOGOOSE', sans-serif;
   font-size: 36px;
@@ -327,6 +330,16 @@ footer {
   line-height: 36px;
 }
 
+.aboutme-logo h2::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 1.2em;
+  background-color: #ec5242;
+  text-align: center;
+  margin: 0.5em 47% 1em;
+}
+
 .aboutme-logo p {
   font-size: 18px;
   line-height: 28px;
@@ -354,6 +367,16 @@ footer {
 
 .aboutme-events h3 {
   font-size: 26px;
+}
+
+.aboutme-events h3::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 1.2em;
+  background-color: #ec5242;
+  text-align: center;
+  margin: 0.5em 47% 1em;
 }
 
 .aboutme-events p {
@@ -438,6 +461,16 @@ footer {
 .students-reviews {
   font-size: 30px;
   margin-bottom: 0%;
+}
+
+#students-reviews::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 1.5em;
+  background-color: #ec5242;
+  text-align: center;
+  margin: 0.3em 3em 0;
 }
 
 .students-cards {
@@ -660,6 +693,16 @@ footer {
     color: #fff;
     font-size: 16px;
     font-weight: 400;
+  }
+
+  #partners-title::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 1.7em;
+    background-color: #ec5242;
+    text-align: center;
+    margin: 0.5em 48.5% 1em;
   }
 
   .logo-partner {
