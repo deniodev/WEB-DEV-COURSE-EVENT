@@ -135,68 +135,61 @@
   background-image: url(./images/background.png);
   background-repeat: repeat;
   background-color: #272a32;
-  padding-bottom: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  padding: 2em 0;
 }
 
-.main-program a {
-  display: none;
-}
-
-.main-program-title-text {
+#main-program {
   color: #fff;
+  font-size: 28px;
+}
+
+#main-program::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 2.5em;
+  background-color: #ec5242;
   text-align: center;
-  padding-top: 10%;
+  margin: 1em 2em 0;
 }
 
-.main-program-title-bar {
-  width: 3em;
-  height: 1em;
-  border-bottom: 1px solid #ef513c;
-  margin: 1px auto 3em;
+.layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.7em;
+  margin: 2.5em 0;
 }
 
-.programs-img {
-  margin-left: 3%;
-}
-
-.programs {
+.cards {
   background-color: rgba(255, 255, 255, 0.1);
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 10px;
   align-items: center;
-  margin: 2% 2% 2% 2%;
+  padding: 0.5em;
+  height: 100%;
+  width: 90%;
 }
 
-.programs-title {
-  color: #ef513c;
-  font-size: 0.875em;
-  text-align: center;
-  width: 26%;
-  padding-left: 7px;
-  line-height: 52px;
-  margin-left: -5%;
+.cards h3 {
+  color: #ec5242;
+  font-size: 20px;
+  width: 30%;
 }
 
-.programs-text {
+.cards p {
   color: #fff;
-  font-size: 0.75em;
-  padding: 0 0.5em 0 0;
-  word-break: keep-all;
-  overflow: auto;
-  height: auto;
-  width: calc(74% - 6.5em);
-  margin-top: 5%;
+  font-size: 16px;
+  width: 50%;
 }
 
 .whole-program {
-  text-align: center;
-  padding-top: 5%;
-}
-
-.whole-program a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 1em;
+  display: none;
 }
 
 .mobile-navbar nav ul li a {
@@ -340,7 +333,7 @@ footer {
 }
 
 .aboutme-logo img {
-  height: 100px;
+  height: 60px;
   border: 1px solid #d3d3d3;
   padding: 15px 15px 15px 15px;
 }
@@ -428,6 +421,11 @@ footer {
   padding: 10px 10px 10px 10px;
 }
 
+.aboutme-footer-mobile img {
+  width: 200px;
+  height: 40px;
+}
+
 .reviews {
   display: flex;
   flex-direction: column;
@@ -439,6 +437,7 @@ footer {
 
 .students-reviews {
   font-size: 30px;
+  margin-bottom: 0%;
 }
 
 .students-cards {
@@ -499,6 +498,11 @@ footer {
 .review-content p {
   font-size: 15px;
   margin-top: 5px;
+}
+
+.logo-footer img {
+  width: 190px;
+  height: 37px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -604,37 +608,58 @@ footer {
     font-size: 1.6em;
   }
 
-  .programs {
-    margin: auto auto 5% 3px;
-    padding-top: 2%;
-    float: left;
-    width: calc(20% - 3px);
-    height: 250px;
-    background: rgba(255, 255, 255, 0.1);
-    display: block;
-    text-align: center;
+  .main-program {
+    padding: 4em 0;
+    gap: 1em;
   }
 
-  .main-program a {
-    display: block;
-  }
-
-  .programs-title {
-    text-align: center;
-    width: auto;
-    font-size: 1.5em;
-  }
-
-  .programs-text {
-    padding: auto;
-    width: 100%;
-    margin-top: auto;
-    font-size: 0.75em;
+  .layout {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin: 2.5em 0;
   }
 
   .cards {
-    justify-content: space-between;
-    margin: 10px 100px 10px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1.5em;
+    width: 188px;
+    height: 190px;
+    margin: 0;
+  }
+
+  .cards:hover {
+    border: 2px solid #fff;
+  }
+
+  .cards h3 {
+    color: #ec5242;
+    font-size: 19px;
+    width: 95%;
+  }
+
+  .cards p {
+    color: #fff;
+    font-size: 14px;
+    width: 99%;
+  }
+
+  .cards img {
+    width: 35%;
+  }
+
+  .whole-program {
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
   }
 
   .logo-partner {
