@@ -24,9 +24,9 @@
 - [📝 License](#license)
 
 
-# 📖  Capstone Project: HTML/CSS & JavaScript project <a name="about-project"></a>
+# 📖  Web Development Course event website. <a name="about-project"></a>
 
-**First Capstone: HTML/CSS & JavaScript** is website for Web Development curse event project build with HTML, CSS, Javascript , using design guidelines , a mobile first approach, with best practices, Github flow and a descriptive and easy to understand README file.
+**Web Development Course event website** is  Web Development curse event project build with HTML, CSS, Javascript.
 
 ## 🛠 Built With <a name="built-with"></a>
 
