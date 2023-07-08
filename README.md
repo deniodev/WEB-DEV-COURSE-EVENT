@@ -1,3 +1,6 @@
+![tripguide](https://github.com/deniodev/WEB-DEV-COURSE-EVENT/assets/92977776/14bd6101-5aaf-4d04-b6f5-bb1174363ac3)
+
+
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
