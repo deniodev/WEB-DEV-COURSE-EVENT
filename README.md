@@ -58,7 +58,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://deniodev.github.io/HTML-CSS-JavaScript-Capstone-Project/)
+- [Live Demo Link](https://deniodev.github.io/WEB-DEV-COURSE-EVENT/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -80,7 +80,7 @@ Run this command:
 
 ```sh
 
- git clone git@github.com:deniodev/HTML-CSS-JavaScript-Capstone-Project.git
+ git clone git@github.com:deniodev/WEB-DEV-COURSE-EVENT.git
 ```
 ### Install
 
@@ -104,7 +104,7 @@ Open index.html using live server extension.
 
 ### Deployment
 
-- [Live Demo Link](https://deniodev.github.io/HTML-CSS-JavaScript-Capstone-Project/)
+- [Live Demo Link](https://deniodev.github.io/WEB-DEV-COURSE-EVENT/)
 
 ## 👥 Authors <a name="getting-started"></a>
 
