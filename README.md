@@ -104,8 +104,6 @@ Open index.html using live server extension.
 
 ### Deployment
 
-- [Live Demo Link](https://deniodev.github.io/WEB-DEV-COURSE-EVENT/)
-
 ## 👥 Authors <a name="getting-started"></a>
 
 - 👤 Denio Nhanale
