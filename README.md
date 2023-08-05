@@ -100,7 +100,7 @@ Open index.html using live server extension.
 
 ### Run Tests
 
--N/A
+-npm test
 
 ### Deployment
 
